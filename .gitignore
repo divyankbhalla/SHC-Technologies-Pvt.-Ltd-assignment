@@ -1,0 +1,5 @@
+node_modules
+dist
+failed_records.json
+.env
+output/

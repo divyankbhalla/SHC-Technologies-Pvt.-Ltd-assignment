@@ -1,0 +1,8 @@
+node_modules
+dist
+tests
+data
+*.md
+.git
+failed_records.json
+.env

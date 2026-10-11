@@ -1,0 +1,25 @@
+{
+  "name": "shc-patient-ingestion",
+  "version": "1.0.0",
+  "description": "ETL pipeline: GlobalHealth legacy CSV -> SHC Platform REST API",
+  "private": true,
+  "main": "dist/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "mock": "tsx scripts/mock-server.ts"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

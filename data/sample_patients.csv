@@ -1,0 +1,9 @@
+patient_id,first_name,last_name,email,phone,dob,account_balance,last_modified
+P001,Ana,Silva,ana.silva@example.com,(555) 123-4567,03/15/1985,"$1,250.50",2024-01-10 09:00:00
+P002,Ben,Okafor,,555-987-6543,1990-07-22,$0.00,2024-02-01 12:30:00
+P003,Chen,Wei,chen.wei@example.com,,25-12-1978,"-$320.75",2024-02-03 08:15:00
+P004,Dana,Lee,dana.lee@example,5551112222,1992-11-05,"1,000",2024-03-01 10:00:00
+P001,Ana,Silva-Reyes,ana.silva@newmail.com,(555) 123-4567,03/15/1985,"$1,400.00",2024-03-05 14:45:00
+P005,Eli,Cohen,eli.cohen@example.com,+44 20 7946 0958,not a date,€ 99.9,2024-02-20 16:00:00
+P003,Chen,Wei,chen.wei@example.com,555-222-3333,25-12-1978,"-$300.00",2024-01-15 11:00:00
+,Ghost,Row,ghost@example.com,5550000000,01/01/1990,$5,2024-01-01 00:00:00
